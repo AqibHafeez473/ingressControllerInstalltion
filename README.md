@@ -13,6 +13,7 @@ You have sufficient permissions to create resources in the Kubernetes cluster.
 Before executing the script, clone the NGINX Kubernetes Ingress repository:
 
 git clone https://github.com/nginx/kubernetes-ingress.git --branch v3.2.0
+
 cd kubernetes-ingress
 
 # Step 2: Make the Script Executable
