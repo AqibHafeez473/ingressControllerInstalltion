@@ -19,12 +19,12 @@ cd kubernetes-ingress
 Set the script’s execution permission:
 
 
-chmod +x deploy-nginx-ingress.sh
+chmod +x script.sh
 # Step 3: Run the Script
 Run the script to deploy the NGINX Ingress Controller:
 
 
-./deploy-nginx-ingress.sh
+./script.sh
 # Step 4: Verify the Deployment
 Once the script has completed, check the status of the deployment:
 
