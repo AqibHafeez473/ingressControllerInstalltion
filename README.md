@@ -1,20 +1,27 @@
-# NGINX Ingress Controller Deployment Script
-This script automates the deployment of the NGINX Ingress Controller in a Kubernetes cluster. It sets up namespaces, service accounts, RBAC configurations, and applies necessary CRDs to get the Ingress Controller running.
 
-# Prerequisites
-# Before running the script, ensure the following:
 
-You have a running Kubernetes cluster (e.g., using kubeadm, Minikube, EKS, GKE, or AKS).
-kubectl CLI is installed and configured to communicate with your cluster.
-You have sufficient permissions to create resources in the Kubernetes cluster.
+# NGINX Ingress Controller Deployment
 
-# Steps to Run the Script
-# Step 1: Clone the Required Repository
+This repository provides a script to automate the deployment of the NGINX Ingress Controller in a Kubernetes cluster. It sets up namespaces, service accounts, RBAC configurations, and applies necessary CRDs to get the Ingress Controller running.
+
+## Prerequisites
+
+Before running the script, ensure the following:
+
+- You have a running Kubernetes cluster (e.g., using kubeadm, Minikube, EKS, GKE, or AKS).
+- `kubectl` CLI is installed and configured to communicate with your cluster.
+- You have sufficient permissions to create resources in the Kubernetes cluster.
+
+## Steps to Run the Script
+
+### Step 1: Clone the Required Repository
+
 Before executing the script, clone the NGINX Kubernetes Ingress repository:
 
+```bash
 git clone https://github.com/nginx/kubernetes-ingress.git --branch v3.2.0
-
 cd kubernetes-ingress
+
 
 # Step 2: Make the Script Executable
 Set the script’s execution permission:
