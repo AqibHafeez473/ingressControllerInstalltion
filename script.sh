@@ -1,10 +1,6 @@
 #!/bin/bash
 
-# Clone the NGINX Kubernetes Ingress repository and switch to the specified branch
-git clone https://github.com/nginx/kubernetes-ingress.git --branch v3.2.0
 
-# Change the active directory
-cd kubernetes-ingress
 
 # Create a namespace and a service account
 kubectl apply -f deployments/common/ns-and-sa.yaml
